@@ -1,0 +1,19 @@
+{
+  "name": "angular_ecommerce",
+  "version": "1.0.0",
+  "description": "Projet réalisé par MEDRARE Oumaima",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oumaima-medrare/Angular_Ecommerce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oumaima-medrare/Angular_Ecommerce/issues"
+  },
+  "homepage": "https://github.com/oumaima-medrare/Angular_Ecommerce#readme"
+}
