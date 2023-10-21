@@ -1,0 +1,24 @@
+<div class="page-container">
+  <mat-card class="example-card" *ngFor="let product of products">
+    <mat-card-header>
+      <mat-card-title>{{ product.name }}</mat-card-title>
+    </mat-card-header>
+    <img
+      mat-card-image
+      src="{{ product.link }}"
+      alt="Photo of the produt"
+      class="product-image"
+    />
+    <mat-card-content>
+      <p>Price: ${{ product.price }}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" style="margin-right: 4px">
+        Add to cart
+      </button>
+      <button mat-raised-button (click)="showProductDetails(product)">
+        See details
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</div>

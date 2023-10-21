@@ -1,0 +1,47 @@
+.page-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.example-card {
+    margin: 10px;
+    padding-bottom: 10px;
+    width: 300px;
+    background-color: #212121;
+    justify-content: center;
+    color: white;
+
+}
+
+.product-image {
+    height: 250px;
+    max-width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+mat-card-header {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+mat-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px;
+}
+
+mat-card-title {
+    size: 20px;
+    text-align: center;
+}
+
+mat-card-actions {
+    justify-content: center;
+}
