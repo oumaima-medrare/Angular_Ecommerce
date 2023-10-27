@@ -9,8 +9,31 @@
   </button>
   <span>NgCommerce</span>
   <span class="example-spacer"></span>
-  <button mat-raised-button color="primary" [routerLink]="'/userauth'">
+
+  <button
+    *ngIf="!isLoggedin"
+    mat-raised-button
+    color="primary"
+    [routerLink]="'/login'"
+  >
     Login
+  </button>
+  <button
+    *ngIf="!isLoggedin"
+    mat-raised-button
+    color="primary"
+    [routerLink]="'/signup'"
+  >
+    Sign up
+  </button>
+  <button
+    *ngIf="isLoggedin"
+    mat-raised-button
+    color="primary"
+    [routerLink]="'/signup'"
+    (click)="logout()"
+  >
+    Log out
   </button>
   <button mat-raised-button color="basic" [routerLink]="'/products'">
     Products

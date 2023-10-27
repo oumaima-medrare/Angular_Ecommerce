@@ -18,7 +18,6 @@ export class ProductsComponent implements OnInit {
 
   ngOnInit(): void {
     this.http.get('assets/products.json').subscribe((data: any) => {
-      console.log(data);
       this.products = data.products;
     });
   }

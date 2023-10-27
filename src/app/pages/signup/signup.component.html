@@ -2,52 +2,7 @@
   <div class="container">
     <div class="row" style="margin-top: 20px">
       <div class="col-md-6 offset-md-3">
-        <mat-card *ngIf="!showLogin">
-          <mat-card-content>
-            <div class="container text-center">
-              <img
-                src="../../../assets/register.png"
-                alt="register"
-                style="height: 120px; width: 120px"
-              />
-            </div>
-            <form>
-              <!-- Username field -->
-              <mat-form-field class="full-width" appearance="outline">
-                <mat-label>Username</mat-label>
-                <input
-                  required
-                  name="username"
-                  matInput
-                  placeholder="Enter Here"
-                />
-                <mat-hint>Valid username !! </mat-hint>
-              </mat-form-field>
-
-              <!-- Password -->
-              <mat-form-field class="full-width" appearance="outline">
-                <mat-label>Password</mat-label>
-                <input
-                  required
-                  name="password"
-                  type="password"
-                  matInput
-                  placeholder="Enter Here"
-                />
-              </mat-form-field>
-
-              <div class="container text-center">
-                <button type="submit" mat-raised-button color="primary">
-                  Register
-                </button>
-                <button mat-raised-button color="accent" class="ml20">
-                  Clear
-                </button>
-              </div>
-            </form>
-          </mat-card-content>
-        </mat-card>
-        <mat-card *ngIf="showLogin">
+        <mat-card>
           <mat-card-content>
             <div class="container text-center">
               <img

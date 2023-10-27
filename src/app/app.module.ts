@@ -16,7 +16,8 @@ import { MatCardModule } from '@angular/material/card';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { ProductsComponent } from './pages/products/products.component';
-import { AuthenticationComponent } from './pages/authentication/authentication.component';
+import { LoginComponent } from './pages/login/login.component';
+import { SignupComponent } from './pages/signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AuthenticationComponent } from './pages/authentication/authentication.c
     NavbarComponent,
     HomeComponent,
     ProductsComponent,
-    AuthenticationComponent,
+    LoginComponent,
+    SignupComponent,
   ],
   imports: [
     BrowserModule,
