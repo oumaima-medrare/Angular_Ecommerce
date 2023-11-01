@@ -1,0 +1,51 @@
+<div class="bootstrap-wrapper">
+  <div style="margin: 10px; background-color: white">
+    <mat-toolbar color="primary" style="margin-bottom: 7px">
+      <div class="col-sm-1">
+        <span style="margin-right: 10px">Profil</span>
+      </div>
+      <div class="col-sm-4">
+        <span>Username</span>
+      </div>
+      <div class="col-sm-6">
+        <span>Email</span>
+      </div>
+      <div class="col-sm-1">
+        <span>Details</span>
+      </div>
+    </mat-toolbar>
+    <mat-toolbar *ngFor="let user of users" style="margin-bottom: 7px">
+      <div class="row" style="width: 100%; display: flex; align-items: center">
+        <div class="col-sm-1">
+          <button
+            mat-icon-button
+            class="example-icon"
+            aria-label="Example icon-button with menu icon"
+            style="margin-right: 10px"
+          >
+            <mat-icon>person</mat-icon>
+          </button>
+        </div>
+
+        <div class="col-sm-4">
+          <span>{{ user.username }}</span>
+        </div>
+        <div class="col-sm-6">
+          <span>{{ user.email }}</span>
+        </div>
+        <div class="col-sm-1">
+          <button
+            mat-raised-button
+            color="primary"
+            [routerLink]="['/user', user.id]"
+          >
+            See details
+          </button>
+        </div>
+      </div>
+      <!-- 
+        <span class="example-spacer"></span>
+        <span class="example-spacer"></span> -->
+    </mat-toolbar>
+  </div>
+</div>

@@ -2,13 +2,13 @@
   <div class="container">
     <div class="row" style="margin-top: 20px">
       <div class="col-md-6 offset-md-3">
-        <mat-card>
+        <mat-card style="background-color: #212121">
           <mat-card-content>
             <div class="container text-center">
               <img
                 src="../../../assets/register.png"
                 alt="register"
-                style="height: 120px; width: 120px"
+                style="height: 120px; width: 100px"
               />
             </div>
 
@@ -50,6 +50,42 @@
                   matInput
                   placeholder="Enter Here"
                 />
+              </mat-form-field>
+
+              <!--gender-->
+              <mat-form-field class="full-width" appearance="outline">
+                <mat-label>Select gender</mat-label>
+                <mat-select
+                  required
+                  [(ngModel)]="user.gender"
+                  name="lastname"
+                  matInput
+                >
+                  <mat-option value="Male">Male</mat-option>
+                  <mat-option value="Female">Femal</mat-option>
+                </mat-select>
+              </mat-form-field>
+
+              <!-- Birth date-->
+              <mat-form-field class="full-width" appearance="outline">
+                <input
+                  #minmaxInput
+                  matInput
+                  [matDatepicker]="disableTyping"
+                  placeholder="birthday"
+                  [max]="maxDate"
+                  readonly
+                  required
+                  name="birthday"
+                  [ngModel]="user.birthday | date : 'y-MM-dd'"
+                  (ngModelChange)="dateChanged($event)"
+                />
+                <mat-datepicker-toggle matSuffix [for]="disableTyping">
+                </mat-datepicker-toggle>
+                <mat-datepicker
+                  #disableTyping
+                  #minmaxvalidation
+                ></mat-datepicker>
               </mat-form-field>
 
               <!-- Phone number field -->

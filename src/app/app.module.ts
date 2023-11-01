@@ -18,6 +18,14 @@ import { MatIconModule } from '@angular/material/icon';
 import { ProductsComponent } from './pages/products/products.component';
 import { LoginComponent } from './pages/login/login.component';
 import { SignupComponent } from './pages/signup/signup.component';
+import { OrdersComponent } from './pages/orders/orders.component';
+import { UsersComponent } from './pages/users/users.component';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatListModule } from '@angular/material/list';
+import { UserDetailsComponent } from './pages/user-details/user-details.component';
+import { MatSelectModule } from '@angular/material/select';
+import { MatNativeDateModule } from '@angular/material/core';
+import { MatDatepickerModule } from '@angular/material/datepicker';
 
 @NgModule({
   declarations: [
@@ -27,6 +35,9 @@ import { SignupComponent } from './pages/signup/signup.component';
     ProductsComponent,
     LoginComponent,
     SignupComponent,
+    OrdersComponent,
+    UsersComponent,
+    UserDetailsComponent,
   ],
   imports: [
     BrowserModule,
@@ -42,6 +53,11 @@ import { SignupComponent } from './pages/signup/signup.component';
     MatCardModule,
     MatToolbarModule,
     MatIconModule,
+    MatDividerModule,
+    MatListModule,
+    MatSelectModule,
+    MatNativeDateModule,
+    MatDatepickerModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

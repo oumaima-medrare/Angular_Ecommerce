@@ -7,7 +7,9 @@
   >
     <mat-icon>storefront</mat-icon>
   </button>
-  <span>NgCommerce</span>
+  <span class="mr20">NgCommerce</span>
+  <button mat-button color="basic" [routerLink]="'/products'">Products</button>
+  <button mat-button color="basic" [routerLink]="'/users'">Users</button>
   <span class="example-spacer"></span>
 
   <button
@@ -34,9 +36,6 @@
     (click)="logout()"
   >
     Log out
-  </button>
-  <button mat-raised-button color="basic" [routerLink]="'/products'">
-    Products
   </button>
 </mat-toolbar>
 

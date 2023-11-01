@@ -18,31 +18,15 @@
   },
   "users": [
     {
-      "username": "sqdgdgfqsd",
-      "password": "sdfqsdfqsf",
-      "firstname": "sdfsdfqsd",
-      "lastname": "qsdfqsdf",
-      "email": "qsdfqsd",
-      "phone": "qsfqsdfqsd",
+      "username": "Emma",
+      "password": "Emma",
+      "firstname": "Oumaima",
+      "lastname": "MEDRARE",
+      "gender": "Female",
+      "email": "Emma@gmail.com",
+      "phone": "0612459578",
+      "birthday": "2001-01-11",
       "id": 1
-    },
-    {
-      "username": ",hqshsjdf",
-      "password": "dfghjk",
-      "firstname": "hgHAJHQKLS",
-      "lastname": "q sghj",
-      "email": "gfdghjkl",
-      "phone": "vfcghjk",
-      "id": 2
-    },
-    {
-      "username": "emma",
-      "password": "emma",
-      "firstname": "emma",
-      "lastname": "emma",
-      "email": "emma",
-      "phone": "emma",
-      "id": 3
     }
   ]
 }
