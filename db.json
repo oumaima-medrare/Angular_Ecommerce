@@ -20,13 +20,85 @@
     {
       "username": "Emma",
       "password": "Emma",
-      "firstname": "Oumaima",
-      "lastname": "MEDRARE",
+      "firstname": "Emma",
+      "lastname": "West",
       "gender": "Female",
-      "email": "Emma@gmail.com",
-      "phone": "0612459578",
-      "birthday": "2001-01-11",
+      "email": "Emma@West.com",
+      "phone": "0612457894",
+      "birthday": "2001-03-08",
+      "orders": [
+        1,
+        1,
+        2,
+        3,
+        4,
+        4,
+        3,
+        2,
+        1,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
       "id": 1
+    },
+    {
+      "username": "jhdbfqd",
+      "password": "fdhdsfh",
+      "firstname": "hdfhd",
+      "lastname": "qdfhs",
+      "gender": "Female",
+      "email": "sfdh",
+      "phone": "sfdhfd",
+      "birthday": "2023-11-02",
+      "orders": [],
+      "id": 2
+    },
+    {
+      "username": "fwdhq",
+      "password": "fdhqdfh",
+      "firstname": "hqdfhqdff",
+      "lastname": "qdqdf",
+      "gender": "Female",
+      "email": "fdhqdf",
+      "phone": "fdqhqfd",
+      "birthday": "2023-11-01",
+      "orders": [],
+      "id": 3
+    },
+    {
+      "username": "gvqsdg",
+      "password": "sdgqsdgq",
+      "firstname": "gfqgqd",
+      "lastname": "dsgqsdg",
+      "gender": "Female",
+      "email": "sqdgqsd",
+      "phone": "qsdgqsd",
+      "birthday": "2023-11-02",
+      "orders": [],
+      "id": 4
+    },
+    {
+      "username": "test",
+      "password": "test",
+      "firstname": "test",
+      "lastname": "test",
+      "gender": "Male",
+      "email": "test@test.com",
+      "phone": "0312457894",
+      "birthday": "2023-11-02",
+      "orders": [
+        6,
+        9,
+        6,
+        9,
+        7,
+        8
+      ],
+      "id": 5
     }
-  ]
+  ],
+  "carts": []
 }

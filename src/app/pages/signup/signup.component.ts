@@ -51,9 +51,10 @@ export class SignupComponent {
     this.auth.userSignUp(this.user).subscribe(
       (result: any) => {
         if (result) {
-          sessionStorage.setItem('user', JSON.stringify(result.body));
+          //console.log(result);
+          sessionStorage.setItem('user', JSON.stringify(result));
           this.router.navigate(['/products']);
-          console.log(result);
+          console.log(sessionStorage.getItem('user'));
           Swal.fire({
             icon: 'success',
             title: 'Welcome ' + result.username,

@@ -44,7 +44,8 @@ export class LoginComponent {
         });
 
         if (userfound) {
-          sessionStorage.setItem('user', JSON.stringify(this.user));
+          //console.log(userfound);
+          sessionStorage.setItem('user', JSON.stringify(userfound));
           this.router.navigate(['/products']);
           Swal.fire({
             icon: 'success',

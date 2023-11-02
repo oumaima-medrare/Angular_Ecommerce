@@ -1,7 +1,6 @@
 import { HttpClient } from '@angular/common/http';
-import { EventEmitter, Injectable } from '@angular/core';
+import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
-import Swal from 'sweetalert2';
 
 @Injectable({
   providedIn: 'root',
@@ -10,6 +9,7 @@ export class AuthenticationService {
   constructor(private http: HttpClient, private router: Router) {}
 
   userSignUp(user: any) {
+    user.orders = [];
     return this.http.post('http://localhost:3000/users', user);
   }
 
@@ -31,5 +31,6 @@ export class AuthenticationService {
   logout() {
     sessionStorage.removeItem('user');
     this.router.navigate(['/signup']);
+    //console.log(sessionStorage.getItem('user'));
   }
 }

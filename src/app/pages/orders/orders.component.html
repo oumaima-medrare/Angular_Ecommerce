@@ -1,1 +1,59 @@
-<p>orders works!</p>
+<link
+  rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+  crossorigin="anonymous"
+/>
+<div class="page-container">
+  <div
+    class="avatar-container text-center mx-auto"
+    *ngFor="let Product of filteredProducts"
+  >
+    <div
+      class="col-sm-4"
+      style="padding-left: 0% !important; padding-right: 0% !important"
+    >
+      <img
+        src="{{ Product.link }}"
+        class="bg-dark p-2 image"
+        alt="woman avatar"
+      />
+    </div>
+    <!-- Content -->
+    <div class="card-body col-sm-8">
+      <!-- Name -->
+      <h1 class="card-title font-weight-bold">{{ Product.name }}</h1>
+      <mat-divider></mat-divider>
+
+      <hr />
+      <!-- Quotation -->
+      <div style="text-align: left">
+        <div class="items-align">
+          <mat-icon
+            aria-hidden="false"
+            aria-label="Example home icon"
+            fontIcon="description"
+          ></mat-icon>
+          {{ Product.description }}
+        </div>
+        <div class="items-align">
+          <mat-icon
+            aria-hidden="false"
+            aria-label="Example home icon"
+            fontIcon="attach_money"
+          ></mat-icon>
+          {{ Product.price }}
+        </div>
+
+        <div class="items-align">
+          <mat-icon
+            aria-hidden="false"
+            aria-label="Example home icon"
+            fontIcon="shopping_cart"
+          ></mat-icon>
+          {{ ordersCount.get(Product.id) }} Items
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -13,7 +13,12 @@
       <p>Price: ${{ product.price }}</p>
     </mat-card-content>
     <mat-card-actions>
-      <button mat-raised-button color="primary" style="margin-right: 4px">
+      <button
+        mat-raised-button
+        (click)="addToCart(product.id)"
+        color="primary"
+        style="margin-right: 4px"
+      >
         Add to cart
       </button>
       <button mat-raised-button (click)="showProductDetails(product)">

@@ -8,4 +8,5 @@ export interface User {
   email: String;
   phone: String;
   birthday: Date;
+  orders: number[];
 }

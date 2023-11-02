@@ -1,81 +1,79 @@
-{
-    "products": [
-        {
-            "id": 1,
-            "name": "High-Performance Laptop",
-            "description": "Experience unparalleled speed and efficiency with our high-performance laptop. Perfect for work, gaming, and more.",
-            "price": 899.99,
-            "link": "assets/images/1.jpeg"
-        },
-        {
-            "id": 2,
-            "name": "Designer Handbag",
-            "description": "Elevate your style with our designer handbag. Crafted with precision and luxury, it's the ultimate fashion statement.",
-            "price": 299.99,
-            "link": "assets/images/2.jpeg"
-        },
-        {
-            "id": 3,
-            "name": "Smart Thermostat",
-            "description": "Efficiently manage your home's temperature with our smart thermostat. Save energy and enjoy a comfortable environment.",
-            "price": 149.99,
-            "link": "assets/images/3.jpeg"
-        },
-        {
-            "id": 4,
-            "name": "Artisanal Chocolate Collection",
-            "description": "Indulge in the rich, velvety flavors of our artisanal chocolate collection. Perfect for gifting or personal enjoyment.",
-            "price": 24.99,
-            "link": "assets/images/4.jpeg"
-        },
-        {
-            "id": 5,
-            "name": "Gaming Mouse",
-            "description": "Dominate your gaming sessions with our wireless gaming mouse. It offers precision and responsiveness for victory.",
-            "price": 59.99,
-            "link": "assets/images/5.jpeg"
-        },
-        {
-            "id": 6,
-            "name": "Fitness Treadmill",
-            "description": "Stay in shape with our advanced fitness treadmill. Track your progress and reach your fitness goals at home.",
-            "price": 799.99,
-            "link": "assets/images/6.jpeg"
-        },
-        {
-            "id": 7,
-            "name": "Leather Recliner Chair",
-            "description": "Relax in style and comfort with our leather recliner chair. It's the perfect addition to your living room or office.",
-            "price": 399.99,
-            "link": "assets/images/7.jpeg"
-        },
-        {
-            "id": 8,
-            "name": "Digital Camera Kit",
-            "description": "Capture stunning photos and videos with our digital camera kit. It includes all the accessories you need for photography.",
-            "price": 499.99,
-            "link": "assets/images/8.jpeg"
-        },
-        {
-            "id": 9,
-            "name": "Luxury Watch",
-            "description": "Elevate your wrist with our luxury watch. Crafted with precision and timeless design, it's a symbol of sophistication.",
-            "price": 999.99,
-            "link": "assets/images/9.jpeg"
-        },
-        {
-            "id": 10,
-            "name": "Smartphone Charger Stand",
-            "description": "Keep your smartphone charged and accessible with our charger stand. It's the perfect desk accessory.",
-            "price": 29.99,
-            "link": "assets/images/10.jpeg"
-        },
-        {
-            "id": 12,
-            "name": "Ultra HD 4K TV",
-            "description": "Immerse yourself in stunning visuals with our Ultra HD 4K TV. Enjoy your favorite shows and movies in exceptional quality.",
-            "price": 699.99,
-            "link": "assets/images/12.jpeg"
-        }
-    ]
-}
+[
+    {
+        "id": 1,
+        "name": "High-Performance Laptop",
+        "description": "Experience unparalleled speed and efficiency with our high-performance laptop. Perfect for work, gaming, and more.",
+        "price": 899.99,
+        "link": "assets/images/1.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Designer Handbag",
+        "description": "Elevate your style with our designer handbag. Crafted with precision and luxury, it's the ultimate fashion statement.",
+        "price": 299.99,
+        "link": "assets/images/2.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Smart Thermostat",
+        "description": "Efficiently manage your home's temperature with our smart thermostat. Save energy and enjoy a comfortable environment.",
+        "price": 149.99,
+        "link": "assets/images/3.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Artisanal Chocolate Collection",
+        "description": "Indulge in the rich, velvety flavors of our artisanal chocolate collection. Perfect for gifting or personal enjoyment.",
+        "price": 24.99,
+        "link": "assets/images/4.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Gaming Mouse",
+        "description": "Dominate your gaming sessions with our wireless gaming mouse. It offers precision and responsiveness for victory.",
+        "price": 59.99,
+        "link": "assets/images/5.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "Fitness Treadmill",
+        "description": "Stay in shape with our advanced fitness treadmill. Track your progress and reach your fitness goals at home.",
+        "price": 799.99,
+        "link": "assets/images/6.jpeg"
+    },
+    {
+        "id": 7,
+        "name": "Leather Recliner Chair",
+        "description": "Relax in style and comfort with our leather recliner chair. It's the perfect addition to your living room or office.",
+        "price": 399.99,
+        "link": "assets/images/7.jpeg"
+    },
+    {
+        "id": 8,
+        "name": "Digital Camera Kit",
+        "description": "Capture stunning photos and videos with our digital camera kit. It includes all the accessories you need for photography.",
+        "price": 499.99,
+        "link": "assets/images/8.jpeg"
+    },
+    {
+        "id": 9,
+        "name": "Luxury Watch",
+        "description": "Elevate your wrist with our luxury watch. Crafted with precision and timeless design, it's a symbol of sophistication.",
+        "price": 999.99,
+        "link": "assets/images/9.jpeg"
+    },
+    {
+        "id": 10,
+        "name": "Smartphone Charger Stand",
+        "description": "Keep your smartphone charged and accessible with our charger stand. It's the perfect desk accessory.",
+        "price": 29.99,
+        "link": "assets/images/10.jpeg"
+    },
+    {
+        "id": 12,
+        "name": "Ultra HD 4K TV",
+        "description": "Immerse yourself in stunning visuals with our Ultra HD 4K TV. Enjoy your favorite shows and movies in exceptional quality.",
+        "price": 699.99,
+        "link": "assets/images/12.jpeg"
+    }
+]
