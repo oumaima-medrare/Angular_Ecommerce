@@ -21,100 +21,88 @@
       "username": "Emma",
       "password": "Emma",
       "firstname": "Emma",
-      "lastname": "West",
+      "lastname": "test",
       "gender": "Female",
-      "email": "Emma@West.com",
-      "phone": "0612457894",
-      "birthday": "2001-03-08",
+      "email": "test@email.com",
+      "phone": "0612457891",
+      "birthday": "2023-11-11",
       "orders": [
         1,
-        1,
         2,
         3,
         4,
-        4,
-        3,
-        2,
+        1,
         1,
         1,
         2,
-        3,
-        4,
-        5,
-        1,
-        1,
-        2
+        12,
+        3
       ],
       "id": 1
     },
     {
-      "username": "jhdbfqd",
-      "password": "fdhdsfh",
-      "firstname": "hdfhd",
-      "lastname": "qdfhs",
+      "username": "Alex",
+      "password": "Alex",
+      "firstname": "Alex",
+      "lastname": "test2",
       "gender": "Female",
-      "email": "sfdh",
-      "phone": "sfdhfd",
-      "birthday": "2023-11-02",
-      "orders": [],
+      "email": "Alex@email.com",
+      "phone": "0678451219",
+      "birthday": "2023-11-11",
+      "orders": [
+        6,
+        5,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
       "id": 2
     },
     {
-      "username": "fwdhq",
-      "password": "fdhqdfh",
-      "firstname": "hqdfhqdff",
-      "lastname": "qdqdf",
+      "username": "Anna",
+      "password": "Anna",
+      "firstname": "Anna",
+      "lastname": "test3",
       "gender": "Female",
-      "email": "fdhqdf",
-      "phone": "fdqhqfd",
-      "birthday": "2023-11-01",
-      "orders": [],
-      "id": 3
-    },
-    {
-      "username": "gvqsdg",
-      "password": "sdgqsdgq",
-      "firstname": "gfqgqd",
-      "lastname": "dsgqsdg",
-      "gender": "Female",
-      "email": "sqdgqsd",
-      "phone": "qsdgqsd",
-      "birthday": "2023-11-02",
-      "orders": [],
-      "id": 4
-    },
-    {
-      "username": "test",
-      "password": "test",
-      "firstname": "test",
-      "lastname": "test",
-      "gender": "Male",
-      "email": "test@test.com",
-      "phone": "0312457894",
-      "birthday": "2023-11-02",
+      "email": "Anna@email.com",
+      "phone": "0612457837",
+      "birthday": "2023-11-10",
       "orders": [
-        6,
-        9,
-        6,
-        9,
+        8,
         7,
-        8
+        5,
+        9,
+        7
       ],
-      "id": 5
+      "id": 3
     }
   ],
   "contacts": [
     {
-      "subject": "test",
-      "message": "testinnnnnggg",
-      "sender": "Emma@West.com",
+      "subject": "hello",
+      "message": "testing contact Form",
+      "sender": "test@email.com",
       "id": 1
     },
     {
-      "subject": "dsgqsdg",
-      "message": ";jhbjhfdsqdf",
-      "sender": "Emma@West.com",
+      "subject": "Hello again",
+      "message": "hello from Alex",
+      "sender": "Alex@email.com",
       "id": 2
+    },
+    {
+      "subject": "I'm Anna",
+      "message": "hello I'm Anna",
+      "sender": "Anna@email.com",
+      "id": 3
+    },
+    {
+      "subject": "Hi ! ",
+      "message": "hello world! ",
+      "sender": "test@email.com",
+      "id": 4
     }
   ]
 }

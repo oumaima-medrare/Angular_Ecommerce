@@ -10,8 +10,6 @@ export class UsersService {
     return this.http.get<any[]>('http://localhost:3000/users');
   }
 
-  // user.service.ts
-  // Add a method to get a user by ID
   getUserById(userId: string | null) {
     return this.http.get<any>(`http://localhost:3000/users/${userId}`);
   }

@@ -9,7 +9,6 @@ import { User } from 'src/app/models/user';
   styleUrls: ['./orders.component.css'],
 })
 export class OrdersComponent {
-  orders: any;
   ordersCount: Map<number, number> = new Map<number, number>();
   filteredProducts: Product[] = [];
 
@@ -18,21 +17,20 @@ export class OrdersComponent {
   ngOnInit(): void {
     const userSession = sessionStorage.getItem('user');
     let userId;
-    if (userSession != null) userId = JSON.parse(userSession).id;
+    if (userSession != null) userId = JSON.parse(userSession).id; // getting the current user id
 
     this.orderService.getUser(userId).subscribe((user: User) => {
-      const selectedIndexes: number[] = user.orders;
-      this.ordersCount = this.countNumberOfOrder(selectedIndexes);
-      console.log(this.ordersCount);
+      const selectedIndexes: number[] = user.orders; // getting the orders (indexes) of the current user
+      this.ordersCount = this.countNumberOfOrder(selectedIndexes); // count the number of orders
 
       this.orderService.getProducts().subscribe((data: Product[]) => {
-        // Now you have the JSON data, and you can filter it based on ordersCount
+        // getting the products based on the selected products
         if (this.ordersCount.size > 0) {
           this.filteredProducts = data.filter((product) =>
             this.ordersCount.has(product.id)
           );
         }
-        console.log(this.filteredProducts);
+        //console.log(this.filteredProducts);
       });
     });
   }

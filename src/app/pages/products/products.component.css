@@ -45,3 +45,30 @@ mat-card-title {
 mat-card-actions {
     justify-content: center;
 }
+
+.swal-button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+
+.swal-signup-btn {
+    background-color: #c2185b;
+}
+
+.swal-login-btn {
+    background-color: #212121;
+}
+
+.swal-cancel-btn {
+    background-color: #dc3545;
+}

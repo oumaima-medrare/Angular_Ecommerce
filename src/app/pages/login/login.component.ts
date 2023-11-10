@@ -3,6 +3,7 @@ import { AuthenticationService } from 'src/app/services/authentication.service';
 import Swal from 'sweetalert2';
 import { Router } from '@angular/router';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { User } from 'src/app/models/user';
 
 @Component({
   selector: 'app-login',
@@ -36,7 +37,7 @@ export class LoginComponent {
     }
     this.auth.userLogin().subscribe(
       (res) => {
-        const userfound = res.find((a: any) => {
+        const userfound = res.find((a: User) => {
           return (
             a.username === this.user.username &&
             a.password === this.user.password
@@ -44,7 +45,7 @@ export class LoginComponent {
         });
 
         if (userfound) {
-          //console.log(userfound);
+          //user found  in db
           sessionStorage.setItem('user', JSON.stringify(userfound));
           this.router.navigate(['/products']);
           Swal.fire({
