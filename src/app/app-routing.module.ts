@@ -7,7 +7,7 @@ import { SignupComponent } from './pages/signup/signup.component';
 import { UsersComponent } from './pages/users/users.component';
 import { UserDetailsComponent } from './pages/user-details/user-details.component';
 import { OrdersComponent } from './pages/orders/orders.component';
-
+import { ContactformComponent } from './pages/contactform/contactform.component';
 const routes: Routes = [
   { path: '', component: ProductsComponent, pathMatch: 'full' },
   { path: 'products', component: ProductsComponent, pathMatch: 'full' },
@@ -15,6 +15,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent, pathMatch: 'full' },
   { path: 'orders', component: OrdersComponent, pathMatch: 'full' },
   { path: 'users', component: UsersComponent, pathMatch: 'full' },
+  { path: 'contact', component: ContactformComponent, pathMatch: 'full' },
   { path: 'user/:id', component: UserDetailsComponent },
 ];
 

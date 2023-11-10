@@ -1,0 +1,55 @@
+<div class="bootstrap-wrapper">
+    <div class="container">
+      <div class="row" style="margin-top: 20px">
+        <div class="col-md-6 offset-md-3">
+          <mat-card style="background-color: #212121">
+            <mat-card-content>
+              <div class="container text-center">
+                <img
+                  src="../../../assets/register.png"
+                  alt="register"
+                  style="height: 120px; width: 100px"
+                />
+              </div>
+    
+              <form (ngSubmit)="sendContactForm()">
+                <!-- Subject field -->
+                <mat-form-field class="full-width" appearance="outline">
+                  <mat-label>Subject</mat-label>
+                  <input
+                    required
+                    [(ngModel)]="contactForm.subject"
+                    name="subject"
+                    matInput
+                    placeholder="Enter Here"
+                  />
+                </mat-form-field>
+  
+                <!-- First name field -->
+                <mat-form-field class="full-width" appearance="outline">
+                  <mat-label>Message</mat-label>
+                  <textarea
+                    required
+                    [(ngModel)]="contactForm.message"
+                    name="message"
+                    matInput
+                    placeholder="Enter Here"
+                  ></textarea>
+                </mat-form-field>
+             
+                <div class="container text-center">
+                  <button type="submit" mat-raised-button color="primary">
+                   Send
+                  </button>
+                  <button mat-raised-button color="accent" class="ml20">
+                    Clear
+                  </button>
+                </div>
+              </form>
+            </mat-card-content>
+          </mat-card>
+        </div>
+      </div>
+    </div>
+  </div>
+  

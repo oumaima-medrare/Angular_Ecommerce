@@ -28,6 +28,14 @@
   >
     Sign up
   </button>
+  <button *ngIf="isLoggedin" mat-raised-button [routerLink]="'/contact'">
+    <mat-icon
+      aria-hidden="false"
+      aria-label="Example home icon"
+      fontIcon="mail"
+    ></mat-icon>
+    Contact Us
+  </button>
   <button *ngIf="isLoggedin" mat-raised-button [routerLink]="'/orders'">
     <mat-icon
       aria-hidden="false"

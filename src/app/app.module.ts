@@ -26,6 +26,7 @@ import { UserDetailsComponent } from './pages/user-details/user-details.componen
 import { MatSelectModule } from '@angular/material/select';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatDatepickerModule } from '@angular/material/datepicker';
+import { ContactformComponent } from './pages/contactform/contactform.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
     OrdersComponent,
     UsersComponent,
     UserDetailsComponent,
+    ContactformComponent,
   ],
   imports: [
     BrowserModule,
