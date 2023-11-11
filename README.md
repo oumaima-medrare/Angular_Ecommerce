@@ -1,16 +1,19 @@
 # AngularEcommerce
 
-Done By : 
-  MEDRARE Oumaima
-  FAILLALI Rochdi 
+Done By : <br /> 
+<ul>
+	<li>MEDRARE Oumaima</li>
+	<li>	FAILLALI Rochdi</li>
+</ul>
+
 
 ## Development server
+**-> Install JSON Server :** <br />
+`npm install --save-dev json-server`  <br />
+**-> Run Json Server :** <br />
+`npm run api` <br />
+**-> Run dev server :**  <br />
+`ng serve`. <br />
 
-install JSON Server : 
-`npm install --save-dev json-server`
-Run Json Server :
-`npm run api`
-Run dev server :
-`ng serve`.
-Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files. <br />
 
